@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "3b1388b6-3677-4f8b-aec6-d70e9e045239",
+		"name": "todos - heroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "取得所有代辦",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "新增單筆代辦",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://secure-ridge-19489.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"secure-ridge-19489",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除所有代辦",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://secure-ridge-19489.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"secure-ridge-19489",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除單筆代辦",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://secure-ridge-19489.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"secure-ridge-19489",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "編輯單筆代辦",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "https://secure-ridge-19489.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"secure-ridge-19489",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
